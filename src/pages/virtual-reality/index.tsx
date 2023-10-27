@@ -6,7 +6,7 @@ const virtualReality = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/img6.jpg"}
+          imgsrc={"/vr.jpg"}
           headerText={"Virtual Reality"}
           subheadText={"Virtual Reality at AWP Gaming Studios"}
           description={`"At AWP Gaming Studios, we are not just a gaming studio; we are a technology company that thrives on pushing the boundaries of innovation. With a team of talented developers, designers, and animators, we strive to create immersive and unforgettable experiences for our customers and partners, taking them beyond the confines of traditional gaming.

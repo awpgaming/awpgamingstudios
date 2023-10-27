@@ -6,7 +6,7 @@ const augmentedReality = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/img7.jpg"}
+          imgsrc={"/ar.jpg"}
           headerText={"Augmented Reality"}
           subheadText={
             "Augmented Reality (AR) at AWP Gaming Studios: Unlocking New Realities"

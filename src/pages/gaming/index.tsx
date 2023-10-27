@@ -6,7 +6,7 @@ const Gaming = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/img6.jpg"}
+          imgsrc={"/gaming.jpg"}
           headerText={"Gaming"}
           subheadText={"Gaming at AWP Gaming Studios"}
           description={`"At AWP Gaming Studios, we are passionate about creating immersive gaming experiences that push the boundaries of creativity and technology. With over 200 unfinished games on Roblox, we are building a unique network where players can seamlessly transport themselves between games, unleashing the full potential of interconnected gameplay.

@@ -14,8 +14,8 @@ const Contact = () => {
           <h1 className="text-[24px]">USA Office </h1>
           <br />
           <h1>
-            7600 N. 15th St. Ste 150 <br />
-            Phoenix , AX 85020
+            2 N Centtral Ave Suite <br /> 1800 phx Az 85004 <br />
+            8777995507
           </h1>
         </div>
         <div className="mt-10 text-white underline">

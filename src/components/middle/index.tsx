@@ -38,7 +38,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/img1.jpg"
+              src="/entertnment.jpg"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -68,7 +68,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/img2.jpg"
+                src="/graphic.jpg"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -104,7 +104,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/img3.jpg"
+              src="/vr.jpg"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -139,7 +139,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/img4.jpg"
+                src="/ar.jpg"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -178,7 +178,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/img5.jpg"
+              src="/branding.jpg"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -214,7 +214,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/img6.jpg"
+                src="/technology.jpg"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -250,7 +250,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/img7.jpg"
+              src="/gaming.jpg"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}

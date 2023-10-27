@@ -6,7 +6,7 @@ const graphicDesign = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/img6.jpg"}
+          imgsrc={"/graphic.jpg"}
           headerText={"Graphic Design"}
           subheadText={
             "Graphic Design at AWP Gaming Studios: Where Creativity Meets Technology"
