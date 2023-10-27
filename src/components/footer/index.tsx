@@ -61,7 +61,7 @@ const Footer = () => {
             </form>
           </div>
           <div className="flex mx-auto justify-center mt-16 text-white">
-          &copy; All rights reserved AWP Gaming Studio 2023
+            &copy; All rights reserved AWP Gaming Studio 2023
           </div>
         </div>
       </div>

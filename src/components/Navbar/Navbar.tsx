@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Nav_Items = [
   { label: "Project", page: "project" },
-  { label: "About", page: "about" },
+  { label: "Contact", page: "contact" },
   { label: "Brand", page: "brand" },
   { label: "Museums", page: "meseums" },
 ];
