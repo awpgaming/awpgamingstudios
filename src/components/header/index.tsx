@@ -6,10 +6,10 @@ const Header = () => {
     <>
       <div className="h-[100vh] flex items-center justify-center relative">
         <div className="text-white text-5xl text-center leading-[75px]">
-          <h1 className="text-6xl">Femme Fatale Studio</h1>
-          <h1>is a creative studio of visual,</h1>
+          <h1 className="text-6xl">Awp Gaming Studios</h1>
+          <h1>Imagine today where vision meets,</h1>
 
-          <h1>interactive & immersive experiences</h1>
+          <h1> innovation and brands of tomorrow are created</h1>
         </div>
         <video
           autoPlay

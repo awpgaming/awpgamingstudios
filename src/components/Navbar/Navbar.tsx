@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Nav_Items = [
-  { label: "Project", page: "project" },
-  { label: "Contact", page: "contact" },
-  { label: "Brand", page: "brand" },
-  { label: "Museums", page: "meseums" },
+  { label: "Entertainment", page: "entertainment" },
+  { label: "Brands & Content", page: "brand_content" },
+  { label: "Technology", page: "technology" },
+  { label: "About AWP", page: "about_AWP" },
 ];
 
 const Navbar = () => {
