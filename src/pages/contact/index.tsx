@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import bg from "./bg1.jpg";
 
 const Contact = () => {
   return (
@@ -19,59 +19,49 @@ const Contact = () => {
           </h1>
         </div>
         <div className="mt-10 text-white underline">
-          <a href="mailto:support@awpgamingstudios.com">Contact Us</a>
+          <Link href="mailto:support@awpgamingstudios.com">Contact Us</Link>
         </div>
         <div className="mt-10">
           <ul className="flex gap-10 items-center justify-center">
             <li>
-              <a
+              <Link
                 href="http://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src="fb.svg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="http://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src="insta.svg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="http://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src="twitter.svg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="http://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src="linkdin.svg" alt="" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
-      {/* <div className="flex items-center justify-center mt-20 h-[300px] relative">
-        <video
-          src="https://ff-portfolio.ams3.cdn.digitaloceanspaces.com/storage/767baf45-3a55-420f-a75f-63c71aac7468.mp4"
-          autoPlay
-          loop
-          muted
-          preload="true"
-          className="absolute h-[300px] -bottom-10"
-        ></video>
-      </div> */}
     </>
   );
 };

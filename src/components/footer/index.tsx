@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -8,41 +9,33 @@ const Footer = () => {
         <div>
           <div className="flex justify-between">
             <div>
-              <ul className="text-white flex flex-col gap-5">
+              <ul className="text-white flex flex-col gap-5 uppercase">
                 <li>
-                  <a href="#">Case studies</a>
+                  <Link href={"/entertainment"}>Entertainment</Link>
                 </li>
                 <li>
-                  <a href="#">Case studies</a>
+                  <Link href={"/brands-content"}>BRANDS & CONTENT</Link>
                 </li>
                 <li>
-                  <a href="#">Case studies</a>
+                  <Link href={"/gaming"}>Gaming</Link>
                 </li>
                 <li>
-                  <a href="#">Case studies</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul className="text-white flex flex-col gap-5">
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
+                  <Link href={"/technology"}>Technology</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <Image
-                src={"/logo.png"}
-                width={75}
-                height={75}
-                alt="logo"
-              ></Image>
+              <ul className="text-white flex flex-col gap-5">
+                <li>
+                  <Link href={"/contact"}>Contact</Link>
+                </li>
+                <li>
+                  <Link href={"/about-awp"}>About</Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <Image src={"/ddd.png"} width={75} height={75} alt="logo"></Image>
             </div>
           </div>
           <div className="mt-32 flex flex-col md:flex-row items-start justify-between ">

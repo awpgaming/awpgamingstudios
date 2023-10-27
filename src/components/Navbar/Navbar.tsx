@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Nav_Items = [
   { label: "Entertainment", page: "entertainment" },
-  { label: "Brands & Content", page: "brand_content" },
+  { label: "Brands & Content", page: "brands-content" },
   { label: "Technology", page: "technology" },
-  { label: "About AWP", page: "about_AWP" },
+  { label: "About AWP", page: "about-awp" },
 ];
 
 const Navbar = () => {
@@ -17,12 +17,12 @@ const Navbar = () => {
   return (
     <section className="navbar fixed w-full h-[100px] z-10">
       <nav className="w-full text-[white]">
-        <div className="p-[4%] mx-auto  md:items-center md:flex justify-between ">
+        <div className="px-[4%] py-[1%] mx-auto  md:items-center md:flex justify-between ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link href="/">
                 <Image
-                  src={"/logo.png"}
+                  src={"/ddd.png"}
                   width={80}
                   height={25}
                   alt="logo"
@@ -82,7 +82,7 @@ const Navbar = () => {
                 {Nav_Items.map((items, ids) => {
                   return (
                     <li key={ids} className={style.nav_item}>
-                      <a href={"/#"}>{items.label}</a>
+                      <Link href={`/${items.page}`}>{items.label}</Link>
                     </li>
                   );
                 })}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Middle = () => {
@@ -29,9 +30,9 @@ const Middle = () => {
             </h1>
           </div>
           <div>
-            <a href="#">
+            <Link href="/about-awp">
               <h1 className="uppercase font-bold">More about the studio</h1>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-32 left-0">
@@ -56,11 +57,11 @@ const Middle = () => {
               captivating games and immersive worlds that transport players into
               new dimensions of entertainment.
             </span>
-            <a href="#">
+            <Link href="/entertainment">
               <h1 className="uppercase font-bold mt-10">
-                SEE OUR Entertainment PROJECTS
+                SEE More about AWP Entertainment
               </h1>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-32 w-full flex justify-end">
@@ -92,11 +93,11 @@ const Middle = () => {
                 produce the first cut of an 8-minute pilot featuring these
                 lovable characters.
               </span>
-              <a href="#">
+              <Link href="/graphic-design">
                 <h1 className="uppercase font-bold mt-10">
-                  SEE OUR Graphic Design PROJECTS
+                  SEE more about AWP Graphic Design
                 </h1>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -127,11 +128,11 @@ const Middle = () => {
               working on incorporating VR technology into our games to provide
               players with unique and unforgettable experiences.
             </span>
-            <a href="#">
+            <Link href="/virtual-reality">
               <h1 className="uppercase font-bold mt-10">
-                SEE OUR Virtual Reality PROJECTS
+                SEE more about AWP Virtual Reality PROJECTS
               </h1>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-32 w-full flex justify-end">
@@ -161,18 +162,16 @@ const Middle = () => {
                 combines elements from popular titles like Pokémon Go and Axie
                 Infinity. In this game, players will embark on a thrilling
                 adventure where they can capture and interact with our adorable
-                characters, `&quot;`The Aliees.`&quot;` These lovable baby aliens from the
-                planet Okra will sing, dance, and engage in unique activities,
-                all within the context of the players`&apos;` real-world
-                surroundings. But our use of AR doesn`&apos;`t stop at gaming.
-                We believe AR has limitless potential to enhance various
-                industries and experiences.
+                characters, `&quot;`The Aliees.`&quot;` These lovable baby
+                aliens from the planet Okra will sing, dance, and engage in
+                unique activities, all within the context of the players`&apos;`
+                real-world surroundings.
               </span>
-              <a href="#">
+              <Link href="augmented-reality">
                 <h1 className="uppercase font-bold mt-10">
-                  SEE OUR Augmented Reality PROJECTS
+                  SEE more about AWP Augmented Reality PROJECTS
                 </h1>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -204,11 +203,11 @@ const Middle = () => {
               game, where the Aliees come to life in a cross between Pokémon GO
               and Axie Infinity.
             </span>
-            <a href="#">
+            <Link href="/brands-content">
               <h1 className="uppercase font-bold mt-10">
-                SEE OUR Brands & Content PROJECTS
+                SEE more about AWP Brands & Content PROJECTS
               </h1>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-32 w-full flex justify-end">
@@ -223,7 +222,7 @@ const Middle = () => {
             </div>
             <div className="w-[40%]">
               <h1 className="font-[bold] text-[50px] uppercase my-8">
-                Augmented Reality
+                Technology
               </h1>
               <span className="text-[20px] leading-6">
                 At AWP Gaming Studios, we are at the forefront of technology and
@@ -240,11 +239,11 @@ const Middle = () => {
                 security, and seamless transactions within our gaming
                 environment.
               </span>
-              <a href="#">
+              <Link href="/technology">
                 <h1 className="uppercase font-bold mt-10">
                   SEE OUR Technology PROJECTS
                 </h1>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -272,11 +271,11 @@ const Middle = () => {
               leverage the latest technologies to deliver the most innovative
               projects and products.
             </span>
-            <a href="#">
+            <Link href="/gaming">
               <h1 className="uppercase font-bold mt-10">
-                SEE OUR Gaming PROJECTS
+                SEE more about AWP Gaming PROJECTS
               </h1>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-32 w-full flex justify-end">
@@ -314,22 +313,20 @@ const Middle = () => {
                 teaching our consumers how to utilize them, fostering innovation
                 within the gaming industry.
               </span>
-              <a href="#">
-                <h1 className="uppercase font-bold mt-10">
-                  About AWP Studios:
-                </h1>
-              </a>
+              <Link href="/about-awp">
+                <h1 className="uppercase font-bold mt-10">About AWP Studios</h1>
+              </Link>
             </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center flex-col w-auto mt-20 items-center text-center">
         <div className="w-full">
-          <a target="" href="#">
+          <Link href="#">
             <div>
               <h1>DISCOVER OUR SELECTION OF PROJECTS</h1>
             </div>
-          </a>
+          </Link>
           <div className="flex items-center justify-center mt-20 h-[300px] relative">
             <video
               src="https://ff-portfolio.ams3.cdn.digitaloceanspaces.com/storage/767baf45-3a55-420f-a75f-63c71aac7468.mp4"
