@@ -38,7 +38,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/entertnment.jpg"
+              src="/entertainment.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -68,7 +68,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/graphic.jpg"
+                src="/graphic.png"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -104,7 +104,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/vr.jpg"
+              src="/vr.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -139,7 +139,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/ar.jpg"
+                src="/ar.png"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -178,7 +178,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/branding.jpg"
+              src="/branding.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -214,7 +214,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/technology.jpg"
+                src="/tech1.png"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}
@@ -250,7 +250,7 @@ const Middle = () => {
         <div className="mt-32 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/gaming.jpg"
+              src="/gaming.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
@@ -282,7 +282,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/aa.jpg"
+                src="/ai.png"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}

@@ -6,7 +6,7 @@ const Technology = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/technology.jpg"}
+          imgsrc={"/tech1.png"}
           headerText={"Technology"}
           subheadText={"Entertainment at AWP Gaming Studios"}
           description={`"Welcome to the Entertainment section of AWP Gaming Studios, where creativity and innovation come together to bring you exciting gaming experiences like never before. As a technology company dedicated to pushing boundaries, we pride ourselves on using the latest technologies and collaborating with top talent to create captivating games and immersive worlds that transport players into new dimensions of entertainment.

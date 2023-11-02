@@ -6,7 +6,7 @@ const brandsContent = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/branding.jpg"}
+          imgsrc={"/branding.png"}
           headerText={"Brands & Content"}
           subheadText={"AWP Brands & Content"}
           description={`At AWP Gaming Studios, we are paving the way for immersive gaming experiences that transcend the boundaries of traditional gameplay. We believe in creating a winning partnership with our customers/partners, and our diverse range of Brands & Content reflects our commitment to pushing the boundaries of technology and creativity.
