@@ -6,7 +6,7 @@ const aboutAWP = () => {
     <>
       <div>
         <PageDescription
-          imgsrc={"/gaming.png"}
+          imgsrc={"/tech1.png"}
           headerText={"About AWP Studios"}
           subheadText={"About AWP Studios"}
           description={`"At AWP Gaming Studios, we are dedicated to providing the most creative projects and products for our customers, whom we consider our valued partners. Our name, AWP, stands for A Winning Partnership, reflecting our commitment to collaborate closely with our customers to achieve success together.
