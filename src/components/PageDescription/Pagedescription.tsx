@@ -20,7 +20,7 @@ const PageDescription = ({
           </div>
           <div className="absolute top-[10%] text-center">
             <div>
-              <h1 className="text-6xl text-white">{headerText}</h1>
+              <h1 className="text-6xl text-white font-Tan">{headerText}</h1>
             </div>
             <div className="mt-5">
               <span className="text-2xl text-white mt-4">{subheadText}</span>
