@@ -7,21 +7,23 @@ const Middle = () => {
     <>
       <div className="">
         <div className="flex justify-center flex-col w-auto p-10 items-center text-center">
-          <div>
-            <h1 className="text-2xl">
+          <div className="mt-10">
+            <h1 className="text-5xl font-PlayfairDisplay">
               We produce and craft <br />
               <strong>experiences to live.</strong>
             </h1>
           </div>
           <div>
-            <h2 className="mt-5 text-2xl">
+            <h2 className="mt-5 text-2xl font-mono">
               Unique experiences that physically
               <br />
               and emotionally engage the general public.
             </h2>
           </div>
+          {/* <div className="left-[50%] w-1 h-7 my-20 border"></div> */}
+          <hr className="my-10 h-20 bg-black w-[1px] opacity-40" />
           <div>
-            <h1 className="mt-5 text-2xl  ">
+            <h1 className="mt-5 text-6xl font-DancingScript">
               ON-SITE INSTALLATIONS /<br />
               CLIPS & MOTION DESIGN /<br />
               WEBSITES /<br />
@@ -29,23 +31,25 @@ const Middle = () => {
               AUGMENTED REALITY /
             </h1>
           </div>
-          <div>
+          <div className="mt-10">
             <Link href="/about-awp">
-              <h1 className="uppercase font-bold">More about the studio</h1>
+              <h1 className="uppercase font-bold font-AbrilFatface">
+                More about the studio
+              </h1>
             </Link>
           </div>
         </div>
-        <div className="mt-32 left-0">
+        <div className="mt-24 left-0">
           <div className="w-[80%] h-[600px]">
             <img
-              src="/entertainment.png"
+              src="/entertnment.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-[bold] text-[50px] uppercase my-8">
+            <h1 className="text-[50px] uppercase my-8 font-Tan">
               Entertainment
             </h1>
             <span className="text-[20px] leading-6">
@@ -75,7 +79,7 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-[bold] text-[50px] uppercase my-8">
+              <h1 className="text-[50px] uppercase my-8 font-Tan">
                 Graphic Design
               </h1>
               <span className="text-[20px] leading-6">
@@ -111,7 +115,7 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-[bold] text-[50px] uppercase my-8">
+            <h1 className="font-Tan text-[50px] uppercase my-8">
               Virtual Reality
             </h1>
             <span className="text-[20px] leading-6">
@@ -146,7 +150,7 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-[bold] text-[50px] uppercase my-8">
+              <h1 className="font-Tan text-[50px] uppercase my-8">
                 Augmented Reality
               </h1>
               <span className="text-[20px] leading-6">
@@ -185,7 +189,7 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-[bold] text-[50px] uppercase my-8">
+            <h1 className="font-Tan text-[50px] uppercase my-8">
               Brands &Content
             </h1>
             <span className="text-[20px] leading-6">
@@ -221,7 +225,7 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-[bold] text-[50px] uppercase my-8">
+              <h1 className="ffont-Tan text-[50px] uppercase my-8">
                 Technology
               </h1>
               <span className="text-[20px] leading-6">
@@ -257,7 +261,7 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-[bold] text-[50px] uppercase my-8">Gaming</h1>
+            <h1 className="font-Tan text-[50px] uppercase my-8">Gaming</h1>
             <span className="text-[20px] leading-6">
               At AWP Gaming Studios, we are passionate about creating immersive
               gaming experiences that push the boundaries of creativity and
@@ -289,7 +293,7 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-[bold] text-[50px] uppercase my-8">
+              <h1 className="font-Tan text-[50px] uppercase my-8">
                 About AWP Studios
               </h1>
               <span className="text-[20px] leading-6">
