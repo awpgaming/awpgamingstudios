@@ -218,7 +218,7 @@ const Middle = () => {
           <div className="w-[80%]">
             <div className="w-[100%] h-[600px]">
               <img
-                src="/tech1.png"
+                src="/technology.png"
                 alt=""
                 className="object-fit"
                 style={{ height: "100%", width: "100%" }}

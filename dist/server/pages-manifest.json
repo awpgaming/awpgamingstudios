@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/brands-content": "pages/brands-content.js",
+  "/about-awp": "pages/about-awp.js",
+  "/technology": "pages/technology.js"
+}
