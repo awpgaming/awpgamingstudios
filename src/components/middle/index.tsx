@@ -40,16 +40,20 @@ const Middle = () => {
           </div>
         </div>
         <div className="mt-24 left-0">
-          <div className="w-[80%] h-[600px]">
+          <div className="w-[80%] h-[600px]" data-aos="fade-right">
             <img
-              src="/entertnment.png"
+              src="/Entertainment.png"
               alt=""
               className="object-fit"
               style={{ height: "100%", width: "100%" }}
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="text-[50px] uppercase my-8 font-Tan">
+            <h1
+              className="text-[50px] uppercase my-8 font-Tan"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               Entertainment
             </h1>
             <span className="text-[20px] leading-6">
@@ -79,7 +83,11 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="text-[50px] uppercase my-8 font-Tan">
+              <h1
+                className="text-[50px] uppercase my-8 font-Tan"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+              >
                 Graphic Design
               </h1>
               <span className="text-[20px] leading-6">
@@ -91,7 +99,7 @@ const Middle = () => {
                 Blender, Maya, Adobe Illustrator, and other cutting-edge
                 software to create captivating 2D and 3D art, images, and
                 animations. One of our most exciting projects is the creation of
-                our first brand of characters, `&quot;`The Aliees.`&quot;` These
+                our first brand of characters, &quot;The Aliees.&quot; These
                 adorable baby aliens from the planet Okra have become an instant
                 hit. Our graphic design and animation team worked tirelessly to
                 produce the first cut of an 8-minute pilot featuring these
@@ -115,7 +123,11 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-Tan text-[50px] uppercase my-8">
+            <h1
+              className="font-Tan text-[50px] uppercase my-8"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               Virtual Reality
             </h1>
             <span className="text-[20px] leading-6">
@@ -150,7 +162,11 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-Tan text-[50px] uppercase my-8">
+              <h1
+                className="font-Tan text-[50px] uppercase my-8"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+              >
                 Augmented Reality
               </h1>
               <span className="text-[20px] leading-6">
@@ -166,9 +182,9 @@ const Middle = () => {
                 combines elements from popular titles like Pokémon Go and Axie
                 Infinity. In this game, players will embark on a thrilling
                 adventure where they can capture and interact with our adorable
-                characters, `&quot;`The Aliees.`&quot;` These lovable baby
-                aliens from the planet Okra will sing, dance, and engage in
-                unique activities, all within the context of the players`&apos;`
+                characters, &quot;The Aliees.&quot; These lovable baby aliens
+                from the planet Okra will sing, dance, and engage in unique
+                activities, all within the context of the players&apos;
                 real-world surroundings.
               </span>
               <Link href="augmented-reality">
@@ -189,7 +205,11 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-Tan text-[50px] uppercase my-8">
+            <h1
+              className="font-Tan text-[50px] uppercase my-8"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
               Brands &Content
             </h1>
             <span className="text-[20px] leading-6">
@@ -202,7 +222,7 @@ const Middle = () => {
               Aliees, are cute little baby aliens from the planet Okra. These
               lovable creatures sing, dance, and bring joy to players of all
               ages. We have produced an exciting 8-minute pilot that showcases
-              the Aliees`&apos;` world and their adventures. Prepare to be
+              the Aliees&apos; world and their adventures. Prepare to be
               captivated by their charm and join them in their augmented reality
               game, where the Aliees come to life in a cross between Pokémon GO
               and Axie Infinity.
@@ -225,7 +245,11 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="ffont-Tan text-[50px] uppercase my-8">
+              <h1
+                className="font-Tan text-[50px] uppercase my-8"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+              >
                 Technology
               </h1>
               <span className="text-[20px] leading-6">
@@ -236,7 +260,7 @@ const Middle = () => {
                 and software to bring our creative visions to life. Blockchain
                 Technologies: AWP Gaming Studios recognizes the transformative
                 potential of blockchain technology within the gaming industry.
-                We have collaborated with some of India`&apos;`s most talented
+                We have collaborated with some of India&apos;s most talented
                 blockchain developers to create the Okra Token, a utility crypto
                 token that serves as the backbone of our ecosystem. By
                 leveraging blockchain technology, we ensure transparency,
@@ -261,7 +285,13 @@ const Middle = () => {
             />
           </div>
           <div className="ml-[20%] mt-16 w-[40%]">
-            <h1 className="font-Tan text-[50px] uppercase my-8">Gaming</h1>
+            <h1
+              className="font-Tan text-[50px] uppercase my-8"
+              data-aos="flip-up"
+              data-aos-duration="1500"
+            >
+              Gaming
+            </h1>
             <span className="text-[20px] leading-6">
               At AWP Gaming Studios, we are passionate about creating immersive
               gaming experiences that push the boundaries of creativity and
@@ -293,7 +323,11 @@ const Middle = () => {
               />
             </div>
             <div className="w-[40%]">
-              <h1 className="font-Tan text-[50px] uppercase my-8">
+              <h1
+                className="font-Tan text-[50px] uppercase my-8"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+              >
                 About AWP Studios
               </h1>
               <span className="text-[20px] leading-6">

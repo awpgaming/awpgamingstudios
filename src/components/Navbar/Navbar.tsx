@@ -1,8 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import style from "./navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import {gsap} from "gsap";
+
 
 const Nav_Items = [
   { label: "Entertainment", page: "entertainment" },
@@ -13,7 +15,18 @@ const Nav_Items = [
 
 const Navbar = () => {
   const [navbar, setNavbar] = React.useState(false);
+  gsap.registerEffect({
+    name: "fade",
+    effect: (targets :any, config: any) => {
+      return gsap.to(targets, { duration: config.duration, opacity: 0 });
+    },
+    defaults: { duration: 2, }, //defaults get applied to any "config" object passed to the effect
+    extendTimeline: true, //now you can call the effect directly on any GSAP timeline to have the result immediately inserted in the position you define (default is sequenced at the end)
+  });
 
+  useEffect(() => {
+    gsap.effects.fade(".ctsmclass")
+  })
   return (
     <section className="navbar fixed w-full h-[100px] z-10">
       <nav className="w-full text-[white]">

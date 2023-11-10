@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="a bg-[url('/bg1.jpg')] h-[100vh] flex flex-col items-center">
+      <div className="a bg-[url('/Contact.png')] h-[100vh] flex flex-col items-center">
         <div className="mt-32">
           <h1 className="text-white text-[40px] md:text-[60px] ">
             A QUESTION, <br /> A PROPOSAL? <br /> CONTACT US

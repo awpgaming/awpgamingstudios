@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="w-full lg:px-[20%] pt-[145px] pb-[50px] px-[15%] bg-[url('/black-board.jpg')]">
+      <div className="w-full lg:px-[20%] pt-[145px] pb-[50px] px-[15%] bg-[url('/Footer.png')]">
         <div>
           <div className="flex justify-between">
             <div>
